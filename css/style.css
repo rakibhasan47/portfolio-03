@@ -7,7 +7,6 @@
 }
 
 html {
-    
     font-family: 'Roboto', sans-serif;
 }
 /*----------------------- navbar start -------------------*/
@@ -67,7 +66,7 @@ a{
 
 .nav-logo{
     font-family: 'Cabin', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #450b78;
@@ -116,3 +115,345 @@ a{
         transform: translateY(-8px) rotate(-45deg);
     }
 /*----------------------- navbar end -------------------*/
+
+/*----------------------- header section start ---------*/
+/*-------- header-row-1 --------*/
+.header-container{
+    background-color: #F4FEFF;
+}
+.header-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.header-row-1 h3{
+    font-size: 20px;
+    color: #2b044d;
+    font-weight: 400;
+    margin-top: 250px;
+    margin-bottom: 20px;
+}
+.header-row-1 h1{
+    font-size: 65px;
+    color: #2b044d;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.header-row-1 p{
+    font-size: 19px;
+    color: #707b8e;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.header-row-1 a{
+    background-color: #F9218D;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+.header-row-1 i{
+    font-size: 20px;
+    color: white;
+    background-color: #D852E8;
+    padding: 25px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+/*-------- header-row-1 --------*/
+
+/*-------- header-row-2 --------*/
+.header-row-2 img{
+    margin-left: 200px;
+    margin-top: 110px;
+}
+/*-------- header-row-2 --------*/
+/*----------------------- header section end ----------------*/
+
+/*----------------------- Some of the best features start ---*/
+.features-section{
+    margin-bottom: 150px;
+}
+.features-row{
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+.features-box-1 img{
+    margin-top: 150px;
+    width: 480px;
+} 
+.features-box-2 h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #2b044d;
+    margin-top: 270px;
+}
+/*------ support-row --------*/
+.support-row{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 45px;
+}
+.img-row{
+    height: 70px;
+    width: 70px;
+    background-image: -webkit-linear-gradient(90deg,#e78ae9 0%,#926ef8 100%);
+    border-radius: 50px;
+}
+.support-box img{
+    margin-left: 18px;
+    margin-top: 18px;
+    width: 35px;
+}
+.support-box{
+    display: grid;
+    grid-template-columns: 90px auto;
+}
+.support-margin-left{
+    margin-left: ;
+}
+.box-heding h3{
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 500;
+    color: #23182c;
+    margin-bottom: 15px;
+}
+.box-heding p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #707b8e;
+    font-weight: 400;
+}
+/*------ support-row --------*/
+/*----------------------- Some of the best features end ----*/
+
+/*----------------- How Can We HelpYour with Appco! start --*/
+.how-can-we-helpYour{
+    background-color: #F4FEFF;
+}
+.how-can-we-helpYour h1{
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    padding: 100px;
+}
+/*--------- 3 box ---------*/
+.how-can-we-helpYour-3-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.how-can-we-helpYour-box{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+.active-border-color{
+    border: 1px solid #835EF8;
+}
+.icon-bg{
+    background: #e88cea;
+    height: 120px;
+    width: 120px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    border-radius: 80px;
+    transition: all 0.5s ease;
+}
+.icon-bg:hover{
+    background-color: #835EF8;
+}
+.icon-bg img{
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.box-2-heading{
+    text-align: center;
+}
+.box-2-heading a{
+    font-size: 25px;
+    color: #201515;
+    transition: all 0.5s ease;
+}
+.box-2-heading a:hover{
+    color: #835EF8;
+}
+.box-2-heading p{
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 30px;
+    margin-bottom: 80px;
+    color: #707b8e;
+}
+/*----------------- How Can We HelpYour with Appco! end --*/
+
+/*---------------- Applic Apps Screenshot start ----------*/
+.screenshot-box{
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+.screenshot-row{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.screenshot-heading h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #2b044d;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 500;
+}
+.screenshot-heading p{
+    color: #707b8e;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+.screenshot-img{
+    margin-left: 5px;
+}
+.screenshot-img img{
+    margin-left: 20px;
+    width: 200px;
+}
+/*---------------- Applic Apps Screenshot end ------------*/
+
+/*---------------- Choose Pricing Plan start -------------*/
+.choose-pricing-plan-all{
+    margin-bottom: 300px;
+    background-color: #101010;
+}
+.choose-pricing-plan{
+    background-image: -webkit-linear-gradient(0deg,#f9218d 0%,#6c19f6 100%);
+    height: 630px;
+}
+.choose-pricing-plan-heading h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px;
+}
+.pricing-plan-box{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.pricing-plan-row{
+    height: 570px;
+    width: 420px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.pricing-plan-row h3{
+    font-size: 28px;
+    font-weight: 400;
+    padding: 35px;
+    text-align: center;
+    color: #57667e;
+}
+.dollar-heading{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.dollar-heading h2{
+    font-size: 50px;
+    margin-left: 110px;
+    color: #6a56a6;
+}
+.dollar-heading h4{
+    font-size: 20px;
+    color: #6a56a6;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.hr-pricing{
+    height: 2px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: #f0eaea;
+}
+.heading-p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.heading-p p{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #717081;
+    font-weight: 300;
+}
+ /* 15 */
+.custom-btn {
+    margin-left: 140px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+ 
+.btn-15 {
+    background: #b621fe;
+    border: none;
+    z-index: 1;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
+
+/*---------------- Choose Pricing Plan end ---------------*/
+
+/*---------------- Our Customers Have to Say start -------*/
+
+/*---------------- Our Customers Have to Say end -------*/
+
