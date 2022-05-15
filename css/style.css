@@ -330,7 +330,7 @@ a{
 
 /*---------------- Choose Pricing Plan start -------------*/
 .choose-pricing-plan-all{
-    margin-bottom: 300px;
+    margin-bottom: 400px;
     background-color: #101010;
 }
 .choose-pricing-plan{
@@ -435,9 +435,9 @@ a{
     z-index: -1;
     background-color: #663dff;
     border-radius: 5px;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
     transition: all 0.3s ease;
   }
   .btn-15:hover {
@@ -454,6 +454,237 @@ a{
 /*---------------- Choose Pricing Plan end ---------------*/
 
 /*---------------- Our Customers Have to Say start -------*/
+.all-our-customers-sectoin{
+    margin-bottom: 200px;
+}
+.our-customers-sectoin h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: #2b044d;
+    margin-bottom: 50px;
+}
+.container-other{
+    max-width: 1000px;
+    margin: auto;
+}
+.our-customers-box{
+    display: flex;
+    justify-content: space-between;
+}
+.our-customers-row{
+    height: 450px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+}
+.our-customers-row:hover{
+    box-shadow: #8f1bdc 2px 2px 0px 2px;
+}
+.our-customers-heading{
+    margin-left: 40px;
+}
+.all-our-customers-sectoin img{
+    margin-top: 50px;
+}
+.our-customers-heading h3{
+    color: #8f1bdc;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.our-customers-heading p{
+    color: #707b8e;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
 
 /*---------------- Our Customers Have to Say end -------*/
+
+/*----------- Our App Download now section start -------*/
+.our-app-download-section{
+    background-image: -webkit-linear-gradient(0deg, #6c19f6 0%, #f9218d 100%);
+    height: 750px;
+}
+.our-app-download-box{
+    display: flex;
+    justify-content: space-between;
+}
+.our-app-download-row{
+    margin-top: 150px;
+}
+.our-app-download-row h1{
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.our-app-download-row p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.app-light-images img{
+    width: 600px;
+    margin-top: 150px;
+}
+.our-app-download-row .app-btn-2{
+    margin-left: 20px;
+}
+.shape-img img{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+/*----------- Our App Download now section end ---------*/
+
+/*----------- Say Hello To The Collaboration Hub --------*/
+.say-hello-collaboration{
+    border-bottom: 1px solid #fc1eb2;
+    margin-bottom: 150px;
+}
+.say-hello-collaboration-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.say-hello-collaboration-heading h1{
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: 500;
+}
+.say-hello-collaboration-image img{
+    position: relative;
+    margin-right: -90px;
+    margin-top: 10px;
+}
+.say-hello-btn a{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #F9218D;
+    padding: 20px 40px;
+    margin-top: -180px;
+    margin-left: 480px;
+    border-radius: 25px;
+    position: absolute;
+}
+/*----------- Say Hello To The Collaboration Hub --------*/
+
+/*------------------ fotter section start ----------------*/
+.fotter-section{
+    margin-bottom: 100px;
+}
+.fotter-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+/* logo-and-p */
+.logo-and-p img{
+    margin-bottom: 40px;
+}
+.logo-and-p p{
+    font-size: 18px;
+    color: #868c98;
+    line-height: 30px;
+}
+
+
+/* quick-links */
+.quick-links h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.quick-links li{
+    padding: 10px 0;
+}
+.quick-links li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #868c98;;
+}
+
+
+/* support */
+.support h4{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.support li{
+    padding: 10px 0;
+}
+.support li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #868c98;;
+}
+
+/* newsletter */
+.newsletter h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.newsletter p{
+    font-size: 18px;
+    color: #868c98;
+    line-height: 30px;
+}
+.newsletter input{
+    font-size: 17px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: #868c98;
+    height: 50px;
+    width: 220px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #F9F9FE;
+}
+input[type="email"]{
+    outline: none;
+  }
+.email-addres-icon a{
+    background-color: #8F1BDC;
+    padding: 15px 25px;
+    margin-left: 200px;
+    margin-top: -50px;
+    position: absolute;
+}
+/* fotter copyright */
+.copyright{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.copyright p{
+    font-size: 18px;
+    color: #868c98;
+}
+.copyright i{
+    color: #f9218d;
+    font-size: 20px;
+}
+.copyright a{
+    font-size: 18px;
+    color: #f9218d;
+}
+/*------------------ fotter section end ------------------*/
+
+
+
+
+
+
+
+
+
+
+
 
